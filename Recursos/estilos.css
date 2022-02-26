@@ -1,0 +1,371 @@
+body{background-color: #464646;
+}
+
+@font-face
+{font-family: Dosis;
+src: url("Dosis-Bold.ttf");}
+
+#contenedor{position: relative;
+            width:1870px;
+            height:1000px;
+            margin: auto;}
+
+header{background-color:#333333;
+}
+
+#logo{width: 14%;
+    height: 7%;
+    display: block;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    }
+
+#logofooter{width: 10%;
+        height: 5%;
+        display: block;
+        position: relative;
+        margin-left: auto;
+        margin-right: auto;
+        opacity: 0.4;
+        }
+
+#resumen{
+        position:relative;
+        top:-40px;
+        height: 50%;
+        width:98%;
+        margin-left: auto;
+        margin-right: auto;
+        background-image: url("Imagenes/madridnoche.jpg.png");
+        background-repeat: no-repeat;
+        background-size: cover;}
+
+#posicionesnav{ background-color: #00000070;
+                display:block;
+                position: relative;
+                height: 400px;
+                width: 50%;
+                left:  24%;
+                top:10%;
+                display: block;}
+
+#titulo{text-align: left;
+color:white;
+font-size: 50px;
+font-family: Tahoma;
+}
+
+#subtitulo{text-align: left;
+    color:rgb(255, 13, 13);
+    font-size: 32px;
+    font-family: 'Courier New', Courier, monospace;}
+
+#parrafoexplicativo{color:white;
+font-size: 17px;
+font-family: 'Courier New', Courier, monospace;}
+
+h3#subtitulo{background-color: #2e2e2e;}
+
+footer{background-color: #161616;}
+
+/*-----------------------------MENU DESPLEGABLE---------------------------------*/
+
+#menu{
+    width:98%;
+    height:20px;
+    margin:0px auto auto 10px; }
+
+.lista1{display:inline;
+    float:left;
+    margin-left: 13%;
+    margin-right: 13%;
+    font-weight:bold;
+	font-family:verdana;
+	font-size:100%;
+    text-align:center;
+    position:relative; }
+    
+a{text-decoration:none;
+    color:black;}
+
+nav li > ul{display:none;}
+
+nav li:hover {background-color: #303030;
+              color:white;
+              }
+
+a:hover{color: white;}
+
+nav li:hover > ul{display:block;
+                 background-color: #464646;
+                 height:70px;
+                 z-index:4;
+                 text-align:center;
+                 position:absolute;
+                 border: 2px solid #161616;
+                 left:-30px;
+            }
+
+.lista2{text-align:center;
+    padding-bottom:0px;
+    position: relative;
+    left: -20px;}
+
+ li{list-style-type:none;}
+
+/*----------------------------- TABLAS ---------------------------------*/
+
+section #tablamenu{  border: 1px solid #161616;
+                width:100%;
+                height: auto;
+                margin:auto;}
+
+#tablamenu{display:block;
+    position:relative;
+    overflow-x: auto;
+    margin:25px 0 0 25px;
+}
+
+#tablamenu th{font-size: 30px;
+   font-family: Dosis;
+    color:white;
+    text-align: center;
+    box-shadow: #00000080;
+    margin:25px 0 0 25px;
+    }
+
+#tablamenu td{ font-size: 20px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    color:#c5c5c5;
+    text-align: center;
+    margin:25px 0 0 25px;}
+
+    #tablamenu th:hover, #tablamenu td:hover{background-color: #2e2e2e;
+                    transition: 0.5s;}
+
+                    #tablamenu th:hover{text-shadow: 3px 3px #000000;
+        font-size: 33px;
+        transition: 0.3s;}
+
+        #tablamenu td:hover{text-shadow: 1px 1px #00000050;
+    font-size: 21px;
+    transition: 0.3s;}
+
+    #tablamenu td img{width: 200px;
+        height: auto;
+        display:block;
+        margin:auto;}
+
+        #tablamenu td img:hover{ width: 210px;
+        height: auto;
+        transition: 0.3s;}
+
+
+#contable{position: relative;
+        overflow:hidden;
+        display:block;
+        margin-left: auto;
+        margin-right: auto;}
+
+/*-------------------------------------MENU IMAGENES-------------------------------------*/
+
+article img{width:500px;
+            display:block;
+            height: 300px;
+            box-shadow:5px 3px #00000050 ;}
+
+#imagenes{width:63%;
+    height:40%;
+    margin-bottom:15px;}
+    
+#FakeNews,#Maps,#Studies{float:left;
+    margin: 10px 35px;
+    position:relative;}
+
+article h1{position:absolute;
+            display:block;
+            top:100px;
+            left: 200px;
+            text-align: center;
+            color: white;
+            font-size: 30px;
+            font-family: Dosis;
+            text-shadow: 1px 1px 10px black;
+            text-decoration-line: underline;
+            background-color: #00000050;}
+
+article img:hover{width:510px;
+                  height:304px;
+                  box-shadow:7px 5px #00000080 ;
+                  transition: 0.3s;}
+
+#Maps{position: absolute;
+    left: 35%;}
+
+#Studies{position: absolute;
+    left: 70%;}
+
+/*-------------------------------------CALDERAS-------------------------------------*/
+
+#calderas{
+        position:relative;
+        top:-70px;
+        height: 700px;
+        width:auto;
+        margin-left: auto;
+        margin-right: auto;
+        background-color:#2e2e2e;
+        }
+
+#calderas h5{font-size: 50px;}
+
+#calderas article{width: 40%;
+                position: relative;
+                top: -40px;
+                
+                }
+
+#calderas aside{background-color: #CBCBC7;
+    width:50%;
+    height:80%;
+    position:absolute;
+    top:74px;
+    right:100px;
+    padding-top:10px;
+    margin-left: auto;
+        margin-right: auto;
+        background-image: url("Imagenes/caldera.jpg.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+        box-shadow: 10px 5px 5px black;    
+    }
+
+        
+#calderas article p{font-size: 30px;}
+
+#partex{font-weight: bold;
+        color: white;
+        text-shadow: 5px 5px 5px #0000007e;}
+
+/*-------------------------------------VEHICULOS A MOTOR-------------------------------------*/
+
+#vehiculos{
+    position:relative;
+    top:-70px;
+    height: 700px;
+    width:auto;
+    margin-left: auto;
+    margin-right: auto;
+    background-color:#2e2e2e;
+    }
+
+#vehiculos h5{font-size: 50px;}
+
+#vehiculos article{background-color: #CBCBC7;
+width:50%;
+height:80%;
+position:absolute;
+left: 50px;
+bottom: 30px;
+padding-top:10px;
+margin-left: auto;
+    margin-right: auto;
+    background-image: url("Imagenes/vehiculo.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: -10px 5px 5px black;    
+}
+
+#vehiculos aside{width: 40%;
+    position: relative;
+    float: right;
+    bottom: 100px;
+    left: -30px;
+    }
+
+    
+#vehiculos aside p{font-size: 30px;}
+
+#infocont{background-color: #2e2e2e;
+        width: 50%;
+        box-shadow: 2px 5px 5px #0000008e;
+    position: relative;
+    bottom: 50px;
+    left: 25%;}
+
+#infocont *{text-align: center;}
+
+/*-----------------------------TABLA IFRAMES---------------------------------*/
+
+#tablaiframes{background-color: #2e2e2e;
+                width: 90%;
+                height:800px;
+                margin:auto;
+                box-shadow: 10px 5px 5px rgba(0, 0, 0, 0.445);
+                position: relative;
+                top: 15px;
+                padding: 5px;}
+
+#tablaiframes tr th{text-align: center;
+                    height:50px;
+                    }
+
+#tablaiframes tr #subtitulo{font-size: 50px;}
+
+#listatabla{font-family: Dosis;
+            font-size: 30px;}
+
+#iframetd{ width:800px;}
+
+iframe{box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.425);}
+
+/*-----------------------------FORMULARIO---------------------------------*/
+
+#contactanos{background-color: #2e2e2e;
+            height:65px;
+            position: relative;
+            top:-20px;}
+
+#contactanos #titulo{text-shadow: 4px 4px 2px #000000;
+            text-align: center;}
+
+label{font-size: large;
+        color: white;
+        font-family: 'Courier New', Courier, monospace;
+        text-shadow: 2px 2px 2px black;}
+
+#redes{width: 90%;
+        height: 300px;
+        position: relative;
+        left:70px;}
+
+#redes table{width: 100%;
+            padding-top: 40px;}
+
+#redes img  {
+            width: 100px;
+            height: 100px;
+            }
+
+#redes img:hover  {
+                width: 110px;
+                height: 110px;
+                transition: 0.3s;
+                }
+
+#redes img[src="../Imagenes/twitter.png"]{height:80px;}
+
+#redes img:hover[src="../Imagenes/twitter.png"]{
+     width: 120px;
+        height:100px;}
+
+#redessociales{text-align: center;
+                font-size: 40px;
+                font-family: dosis;
+                color: red;
+                text-shadow: 2px 2px 2px black;}
+
+#redessociales:hover{font-size: 42px;
+    text-shadow: 4px 4px 2px black;
+    transition: 0.3s;}
